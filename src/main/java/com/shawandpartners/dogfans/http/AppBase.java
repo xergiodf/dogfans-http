@@ -43,6 +43,7 @@ public class AppBase extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
-        resources.add(com.shawandpartners.dogfans.http.Home.class);
+        resources.add(BreedController.class);
+        resources.add(com.shawandpartners.dogfans.http.filter.UtilFilter.class);
     }
 }

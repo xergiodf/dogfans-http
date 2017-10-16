@@ -14,7 +14,7 @@ import java.io.IOException;
  * @version 1 - 13.10.2017
  */
 @Provider
-@Priority(Priorities.AUTHENTICATION)
+@Priority(Priorities.HEADER_DECORATOR)
 public class UtilFilter implements ContainerResponseFilter {
 
     @Override
